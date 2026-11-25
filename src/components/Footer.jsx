@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer"><div><strong>ShopEase</strong><p>Thoughtful finds for everyday living.</p></div><small>© 2026 ShopEase. Built as a React minor project.</small></footer>}

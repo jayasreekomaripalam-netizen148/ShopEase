@@ -1,0 +1,10 @@
+export const products = [
+ {id:1,name:'Minimal Ceramic Mug',category:'Home',price:499,rating:4.8,image:'https://images.unsplash.com/photo-1514228742587-6b155d8fc7e3?auto=format&fit=crop&w=900&q=80',description:'A beautifully simple ceramic mug for your everyday coffee or tea ritual.'},
+ {id:2,name:'Classic Everyday Backpack',category:'Accessories',price:1899,rating:4.7,image:'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80',description:'A versatile backpack with thoughtful storage and a clean, timeless silhouette.'},
+ {id:3,name:'Wireless Headphones',category:'Electronics',price:2499,rating:4.9,image:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80',description:'Comfortable wireless audio with rich sound for work and play.'},
+ {id:4,name:'Modern Desk Lamp',category:'Home',price:1299,rating:4.6,image:'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80',description:'A modern desk lamp that adds warm light to your workspace.'},
+ {id:5,name:'Everyday Sneakers',category:'Fashion',price:2999,rating:4.5,image:'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',description:'Lightweight sneakers made for all-day comfort and casual style.'},
+ {id:6,name:'Scented Candle',category:'Home',price:799,rating:4.8,image:'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=80',description:'A soothing candle to make your space feel calm and inviting.'},
+ {id:7,name:'Smart Watch',category:'Electronics',price:3499,rating:4.4,image:'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80',description:'Keep track of your day with a stylish everyday smart watch.'},
+ {id:8,name:'Sunglasses',category:'Accessories',price:999,rating:4.3,image:'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80',description:'Classic sunglasses with a contemporary frame and easy styling.'}
+];

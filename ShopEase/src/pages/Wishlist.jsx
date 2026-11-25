@@ -1,0 +1,2 @@
+import {useSelector} from 'react-redux';import ProductCard from '../components/ProductCard';import {Link} from 'react-router-dom';
+export default function Wishlist(){const items=useSelector(s=>s.wishlist.items);return <section className="section shop"><span className="eyebrow">SAVED ITEMS</span><h2>Your wishlist</h2>{items.length?<div className="grid">{items.map(p=><ProductCard product={p} key={p.id}/>)}</div>:<div className="empty"><p>No favorites saved yet.</p><Link className="primary" to="/products">Discover products</Link></div>}</section>}
